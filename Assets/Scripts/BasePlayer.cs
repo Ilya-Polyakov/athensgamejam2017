@@ -4,9 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BasePlayer : MonoBehaviour {
-
-    public float floatVal = 793f;
-    public string className = "Parent";
+    
     public float movementSpeed = 5.0f, jumpSpeed = 5.0f;
     [SerializeField] protected string playerNum;
     protected Rigidbody rb;

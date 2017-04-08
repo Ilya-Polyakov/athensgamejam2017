@@ -7,8 +7,6 @@ public class MoveX : BasePlayer {
 
 	// Use this for initialization
 	void Start () {
-        className = "Child";
-        //floatVal = 222f;
         rb = GetComponent<Rigidbody>();
     }
 	

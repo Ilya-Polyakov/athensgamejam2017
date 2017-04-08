@@ -8,9 +8,7 @@ public class Jumper : BasePlayer {
 
 	// Use this for initialization
 	void Start () {
-        jumpSpeed = 8f;
-        className = "Child";
-        //floatVal = 222f;
+        jumpSpeed = 7f;
         rb = GetComponent<Rigidbody>();
     }
 	

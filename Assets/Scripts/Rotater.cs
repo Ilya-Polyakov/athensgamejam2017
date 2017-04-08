@@ -19,6 +19,7 @@ public class Rotater : BasePlayer {
 
     void RotateBlock(string playerX)
     {
+        /*
         // ROTATE LEFT
         if(Input.GetAxisRaw(playerX) < 0 &&)
         {
@@ -31,5 +32,6 @@ public class Rotater : BasePlayer {
             rb.rotation = Quaternion.Euler(0f, 0f);
         }
         //rb.rotation = Quaternion.Euler(0f, 0f);
+        */
     }
 }

@@ -11,7 +11,7 @@ public class BasePlayer : MonoBehaviour {
     [SerializeField] protected string playerNum;
     protected Rigidbody rb;
     protected bool isGrounded = true;
-    protected float yThreshold = 0.0001f;
+    protected float yThreshold = 0.05f;
     protected Vector3 velocity;
 
 	// Use this for initialization
